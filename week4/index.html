@@ -7,15 +7,32 @@
 
     <body>
         <!-- Thia is an html comment -->
+        <!--
+            shift will indent - shift + tab will indent backwards.
+            cmd/cntrl + left/right arrows move to start and end of the line.
+            cmd/cntrl + up/down arrows move  to start or end of page.
+            shift + cmd/cntrl + left/right/up/down arrows select to the start/end of a line.
+            ahift + up/down arrows select per line.
+        -->
         <!-- Site header -->
         <header>
-            <!-- h1 is the most important heading -->
+            <!--h1 is the most important heading. we can use 6 levelsof headings from h1 to h6-->
         <h1> reggies coffee shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                
+            </ul>
+        </nav>
         </header>
         <!-- starting the main content of th epage -->
         <main>
+            <!--addind a page link-->
+            <a href="#treatofweek"> treat of the week</a>
             <article>
                 <h2>Our story </h2>
+                <!--adding an image-->
+                <img src="./images/coffee-shop.jpg" alt="coffe cup on a pile of coffee beans">
             <p> 
                 we are <em> family owned buisiness</em> Reggies is the <abbr title="Chief executive officer ">CEO</abbr> and head barista of the shop.
                 Maria is the pastry chef .
@@ -51,7 +68,7 @@
                 </ol>
             </section>
             <!-- adding section for a description list.-->
-            <section>
+            <section id="treatofweek">
                 <h3> Treat of the week </h3>
                 <dl>
                     <dt> Name </dt>
@@ -72,7 +89,8 @@
                             <li>Bananas</li>
                         </ul>
                     </dd>
-                </dl>
+                </dl><!--adding an external link-->
+                <a href="https://natashaskitchen.com/banana-bread-recipe-video//" target="_blank">Get the recipe</a>
             </section>
         </main>
         <!-- Site footer-->
