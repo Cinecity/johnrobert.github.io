@@ -71,7 +71,7 @@
   }
   
   aside ul {
-    list-style-type:circle;
+    list-style-type:decimal;
     margin-left: 0;
   }
   
@@ -242,4 +242,5 @@ input[type="radio"] {
   body {
     font-family: 'Open Sans', sans-serif;
   }
-  
+  padding-bottom: 5%;
+    padding-top: 20%;
