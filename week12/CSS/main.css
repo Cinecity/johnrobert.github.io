@@ -1,0 +1,24 @@
+/* 
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+ */
+ h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+ }
+ h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+ }
+ p {
+    font-family: 'Source Sans Pro', sans-serif;
+
+ }
+ .map iframe {
+    width: 100;
+    max-width: 800;
+    margin: 0 auto;
+    display: block;
+ }
+ 
