@@ -5,27 +5,313 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom styles -->
+
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- Font Link styles -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> -->
+    
 
 
-    <!-- Icon Link Style-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css%22%3E
-    <title>Week 12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Final Project</title>
 </head>
 
 <body>
     <header>
 
+        <nav>
+            <div id="logo_Holder">
+                <img src="images/logo.png" title="This is The Logo">
+            </div>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <form id="search_Form">
+                <input type="text" name="serch" placeholder="Search">
+
+                <button type="submit">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #c78b07;"></i>
+                </button>
+            </form>
+        </nav>
+
+
+        <div class="main_Banner">
+            <img src="images/main-banner.jpg" class="center">
+            
+            <div class="main_Banner_Overlay">
+                <h1>Wecome to Three Star Media</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deleniti commodi asperiores architecto doloribus ea expedita, obcaecati recusandae aperiam distinctio suscipit provident illo quisquam eveniet neque ipsum praesentium in ipsam.
+                </p>
+
+                <button>
+                    Connect with us
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+
+            </div>
+        </div>
+
+        
     </header>
 
-    <main>
+    <main class="main-grid-container">
+        <section class="aboutUs">
+            <div class="about_Us_Container">
+                <div class="about_Us_Column1">
+                    <img src="images/about-us.jpg" alt="" class="center">
+
+                </div>
+
+                <div class="about_Us_Column2">
+                    <h1>About Us</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam rerum possimus ut quasi voluptatibus fuga, veniam eveniet impedit dicta repudiandae accusamus assumenda natus perspiciatis quam consequatur error aspernatur enim?
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam rerum possimus ut quasi voluptatibus fuga, veniam eveniet impedit dicta repudiandae accusamus assumenda natus perspiciatis quam consequatur error aspernatur enim?
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our_Services">
+            <div class="our_Services_Container">
+                <div class="our_Services_row1">
+
+                    <h1>Our Services</h1>
+                    
+
+                </div>
+
+                <div class="our_Services_row2">
+                    <img src="images/digital.jpg" alt="" class="center">
+
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Digital Transformation</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                        <button class="gray_Button">
+                            Digital Plans
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="our_Services_row3">
+                    <img src="images/marketing.jpg" alt="" class="center">
+                    
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Marketing</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                        <button class="gray_Button">
+                            Marketing Plans
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ourServices_row4">
+                    <img src="images/video.jpg" alt="" class="center">
+                    
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Video Production</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                        <button class="gray_Button">
+                            Video Plans
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="our_Services_row5">
+                    <img src="images/web.jpg" alt="" class="center">
+                    
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Web Development</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                        <button class="gray_Button">
+                            Web Plans
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="our_Services_row6">
+                    <img src="images/print.jpg" alt="" class="center">
+                    
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Print</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                        <button class="gray_Button">
+                            Print Plans
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our_Vision">
+            <img src="images/vision.jpg" class="center">
+            <div class="our_Vision_Container">
+                <h1>Our Vision</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates ut sit dolore praesentium adipisci animi error repellat mollitia nobis voluptatem omnis consequuntur, at suscipit. Rerum quisquam vero excepturi quia?
+                </p>
+                <button class="gray_Button">
+                    Learn More
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="our_Team">
+            <div class="our_Team_Container">
+                <div class="our_Team_row1">
+
+                    <h1>Our Team</h1>
+                    
+
+                </div>
+
+                <div class="our_Team_row2">
+                    <img src="images/john.jpg" alt="" class="center">
+
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">John Doe</h1>
+                        <h3> CEO and Co-owner</h3>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="our_Team_row3">
+                    <img src="images/marketing.jpg" alt="" class="center">
+                    
+                    <div class="row_Content_Container">
+                        
+                        <h1 class="sub_Headings">Marketing</h1>
+                        <h3> CEO and Co-owner</h3>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum illum laudantium alias placeat perspiciatis ex et sed voluptatum quas cumque ipsam aperiam illo, quis beatae. Debitis accusantium hic aut.
+                        </p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </section>
+        
+        <section class="contact_Us">
+            <div class="contact_Us_row1">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div class="contact_Us_row2">
+                <div class="contact_Us_Container">
+               
+                    <h3 class="sub_Headings" style="font-size: 31px;">Send us a message</h3>   
+                    <form>
+                        <!-- name of the person goes here -->
+                        <div>
+                            <label for="fullname">Name</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                        </div>
+                        <!-- email of the person goes here -->
+                        <div>
+                            <label for="youremail">Email</label>
+                            <input type="email" id="youremail" name="youremail" required>
+                        </div>
+                        <!-- message of the person goes here -->
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="5" required></textarea>
+                        </div>
+                        <!-- This will submit the cantact form -->
+                        <button type="submit">SEND</button>
+                    
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="contact_Us_row3">
+                <div class="hrs_Of_operation">
+                    <h1 class="sub_Headings">Hours of operation</h1>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+       
+            <div class="contact_Us_row4">
+                <div class="contact_Us_Map_Container">
+                    <div class="map">
+                        <h1 class="subHeadings">Location</h1>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6386.161757738416!2d-75.76225792465618!3d45.350273818733406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680029715179!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
 
     </main>
+    
+
+    <footer>
+        <div class="site_footer">
+            <p>&copy; Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <u>Unsplash</u></p>
+        </div>
+    </footer>
 </body>
 
 </html>
